@@ -1,0 +1,500 @@
+   66  git diff -- staged
+   67  git status
+   68  git status
+   69  git checkout -f
+   70  git status
+   71  cat index.html
+   72  touch waste.html
+   73  ls
+   74  git commit -a -m "Adding waste"
+   75  git status
+   76  git add waste.html
+   77  git status
+   78  git rm --cached "waste.html"
+   79  git status
+   80  git commit -a -m "Removing waste"
+   81  git status
+   82  git add waste.html
+   83  git status
+   84  git rm waste.html
+   85  git status
+   86  ls
+   87  git rm -f waste.html
+   88  git status
+   89  ls
+   90  git log -p -2
+   91  git stattus
+   92  git status
+   93  ls
+   94  git log -p -2
+   95  git log
+   96   touch waste.html
+   97  ls
+   98  git add waste.html
+   99  git commit -a -m "Adding waste"
+  100  git status
+  101  git rm --cached waste.html
+  102  git status
+  103  git status
+  104  git add -A
+  105  git status
+  106  ls
+  107  git commit -a -m "Removing waste"
+  108  git status
+  109  git rm waste.html
+  110  git status
+  111  ls
+  112  git log -p -2
+  113  git log -p -1
+  114  git status
+  115  git status -s
+  116  git status
+  117  git status -s
+  118  git add about.html
+  119  git status
+  120  git status -s
+  121  git status
+  122  git checkout -f
+  123  git status
+  124  git status -s
+  125  git remote add origin https://github.com/manuaralam007/Git123.git
+  126  ls
+  127  ls -a
+  128  cd .git/
+  129  ls -a
+  130  cat config
+  131  git status
+  132  cd ..
+  133  git status
+  134  git push -u origin master
+  135  touch .gitignore
+  136  ls
+  137  git rm -f waste.html
+  138  git status
+  139  ls
+  140  touch mylogs.log
+  141  ls
+  142   git status
+  143  git add -A
+  144  git status
+  145   git status
+  146   git status
+  147  git add -A
+  148  git status
+  149  git status
+  150  git commit -a -m "Ignore message"
+  151  git status
+  152  git log -p -1
+  153  git status
+  154  git branch feature1
+  155  git branch
+  156  git checkout feature1
+  157  git status
+  158  git status
+  159  git add -A
+  160  git commit -m "About Title Changed"
+  161  git status
+  162  git checkout master
+  163  git checkout feature1
+  164  git status
+  165  git commit -a -m "added comment"
+  166  git status
+  167  git checkout master
+  168  git status
+  169  git checkout feature1
+  170  git status
+  171  git checkout master
+  172  git log -p -2
+  173  git merge feature1
+  174  git log -p -2
+  175  git branch
+  176  git checkout feature
+  177  git checkout feature1
+  178  git branch
+  179  git checkout master
+  180  git branch
+  181  git checkout -b flaskintegration
+  182  git branch
+  183  git status
+  184  git add -A
+  185  git commit -m "Added flask minimal file"
+  186  git status
+  187  git checkout master
+  188   git status
+  189  git commit -a -m "modified contact"
+  190  git status
+  191  git checkout flaskintegration
+  192  git remote
+  193  git remote -v
+  194  git push origin master
+  195  ssh-keygen -t ed25519 -C "manuaralam@hotmail.com"
+  196  eval $(ssh-agent -s)
+  197  ssh-add ~/.ssh/id_rsa
+  198  git checkout master
+  199  ssh-add ~/.ssh/id_rsa
+  200  ssh-keygen -t ed25519 -C "manuaralam@hotmail.com"
+  201  ssh-keygen -t ed25519 -C "manuaralam@hotmail.com"
+  202  eval $(ssh-agent -s)
+  203  ssh-add ~/.ssh/id_rsa
+  204  git checkout flaskintegration 
+  205  git push -u origin flaskintegration 
+  206  git checkout master
+  207  free -h
+  208  free
+  209  history
+  210  exit
+  211  docker --version
+  212  docker ps
+  213  docker start
+  214  docker start --help
+  215  systemctl start docker
+  216  sudo -i
+  217  cd /Users/aamir/Documents/Projects
+  218  ls
+  219  cd Projects/
+  220  node -v
+  221  clear
+  222  mkdir Projects
+  223  cd Projects/
+  224  npx create=react-app testapp
+  225  npx create=react-app testapp
+  226  npx create=react-app testapp
+  227  npx create-react-app testapp
+  228  cd testapp
+  229  npm start
+  230  ls
+  231  vi src
+  232  cd src/
+  233  ls
+  234  vi App.js
+  235  cd ..
+  236  npm start
+  237  docker -v
+  238  vi Dockerfile
+  239  ls
+  240  rm node_modules
+  241  rmdir node_modules
+  242  rmdir -f node_modules
+  243  ls
+  244  rmdir -rf node_modules
+  245  ls
+  246  cd node_modules/
+  247  ls
+  248  rm -rf *
+  249  ls
+  250  cd ..
+  251  cd node_modules/
+  252  cd ..
+  253  ls
+  254  rmdir node_modules
+  255  rmdir -f node_modules
+  256  ls
+  257  cd node_modules
+  258  ls
+  259  ls -l
+  260  docker build .
+  261  systemctl start docker.service
+  262  docker start
+  263  docker ps
+  264  cd ..
+  265  systemctl start docker.service
+  266  docker start
+  267  docker ps
+  268  docker build .
+  269  docker image ls
+  270  docker ps
+  271  docker run aa760e475476
+  272  docker image ls
+  273  docker run -p 3000:3000  aa760e475476
+  274  docker run -d -p 3000:3000  aa760e475476
+  275  docker ps
+  276  docker run -d -p 3000:3000  aa760e475476
+  277  docker run -d -p 3001:3000  aa760e475476
+  278  docker run -d -p 3002:3000  aa760e475476
+  279  docker ps
+  280  docker ps -a
+  281  docker rm  elated_chatterjee ecstatic_varahamihira eloquent_feynman
+  282  docker ps -a
+  283  docker ps
+  284  docker rm  elated_chatterjee ecstatic_varahamihira eloquent_feynman
+  285  docker ps -a
+  286  docker rm hopeful_yalow determined_leakey  magical_boyd
+  287  docker ps
+  288  docker stop  elated_chatterjee ecstatic_varahamihira  eloquent_feynman
+  289  docker ps
+  290  docker run -d --rm -p 3001:3000  aa760e475476
+  291  docker ps
+  292  docker stop nervous_boyd
+  293  docker ps -a
+  294  docker ps
+  295  docker rm  elated_chatterjee
+  296  docker ps
+  297  docker ps -a
+  298  docker rm ecstatic_varahamihira eloquent_feynman
+  299  docker ps -a
+  300  docker rm  reverent_gates
+  301  docker ps -a
+  302  docker ps
+  303  docker run -d --rm --name "mywebapp" -p 3001:3000  aa760e475476
+  304  docker ps
+  305  docker stop mywebapp
+  306  docker ps
+  307  docker image ls
+  308  docker build -t mywebapp:01 . 
+  309  docker image ls
+  310  docker build -t mywebapp:02 . 
+  311  docker image ls
+  312  docker rmi mywebapp:02
+  313  docker image ls
+  314  ls
+  315  cd src
+  316  ls
+  317  vi App.js
+  318  cd ../
+  319  docker build -t mywebapp:02 . 
+  320  docker image ls
+  321  docker run -d --rm --name "mywebapp" -p 3001:3000  mywebapp:02
+  322  docker ps
+  323  docker run -d --rm --name "mywebapp01" -p 3002:3000  mywebapp:01
+  324  docker ps
+  325  docker pull python
+  326  docker run python:latest
+  327  docker ps
+  328  docker pull nginx
+  329  docker run -p 8080:80 nginx:latest
+  330  docker login
+  331  docker push manuaralam/webapp-demo:tagname
+  332  docker images
+  333  docker build -t manuaralam/webapp-demo:01 .
+  334  docker push manuaralam/webapp-demo:01
+  335  docker images
+  336  docker tag mywebapp:02 manuaralam/webapp-demo:02
+  337  docker images
+  338  docker push manuaralam/webapp-demo:02
+  339  docker images
+  340  ls
+  341  cd Projects/
+  342  ls
+  343  cd testapp
+  344  docker ps
+  345  docker stop  determined_leakey
+  346  docker ps
+  347  docker stop  hopeful_yalow
+  348  docker image ls
+  349  docker image ls
+  350  docker rm  00631e54acba  e2d17ec744c1  2c2bc1864279 
+  351  docker image ls
+  352  ls
+  353  touch .dockerignore
+  354  ls
+  355  ls -a
+  356  vi .dockerinore
+  357  rm -dockerinore
+  358  rm -rf .dockerinore
+  359  ls
+  360  ls -a
+  361  git clone https://github.com/verma-kunal/AWS-Session
+  362  ls
+  363  cd AWS-Session/
+  364  ls
+  365  touch .env
+  366  ls
+  367  ls -a
+  368  vi server,js
+  369  npm install
+  370  ls
+  371  npm run start
+  372  vim .env
+  373  exit
+  374  cd Downloads
+  375  ls
+  376  ssh -i "demo.pem" ubuntu@ec2-65-2-190-84.ap-south-1.compute.amazonaws.com
+  377  npm run start
+  378  ssh -i "demo.pem" ubuntu@ec2-65-2-190-84.ap-south-1.compute.amazonaws.com
+  379  ls
+  380  cd ..
+  381  cd AWS-Session/
+  382  ls
+  383  ls -a
+  384  vi .env
+  385  cat .env
+  386  npm run start
+  387  ls
+  388  ls -a
+  389  vi .env
+  390  npm run start
+  391  cd Downloads
+  392  ssh -i aws_login.pem ubuntu@54.165.74.67
+  393  chmod 600 aws_login.pem
+  394  ssh -i aws_login.pem ubuntu@54.165.74.67
+  395  cd Downloads
+  396  ssh -i aws_login.pem ubuntu@34.207.124.50
+  397  ssh -i aws_login.pem ubuntu@34.207.124.50
+  398   ls | grep aws_login
+  399  scp -i /Users/aamir/Downloads/aws_login.pem /Users/aamir/Downloads/aws_login.pem ubuntu@54.211.8.212:/home/ubuntu
+  400  scp -i /Users/aamir/Downloads/aws_login.pem /Users/aamir/Downloads/aws_login.pem ubuntu@54.211.8.212:/home/ubuntu
+  401  scp -i /Users/aamir/Downloads/aws_login.pem /Users/aamir/Downloads/aws_login.pem ubuntu@3.89.109.62:/home/ubuntu
+  402  chmod 600 aws_login.pem
+  403  ls
+  404  ls -ltr
+  405  scp -i /Users/aamir/Downloads/aws_login.pem /Users/aamir/Downloads/aws_login.pem ubuntu@3.89.109.62:/home/ubuntu
+  406  scp -i /Users/aamir/Downloads/aws_login.pem /Users/aamir/Downloads/aws_login.pem ubuntu@3.89.109.62:/home/ubuntu
+  407  ls | grep aws_login.pem 
+  408  ssh -i aws_login.pem ubuntu@8.89.109.62
+  409  ssh -i aws_login.pem ubuntu@8.89.109.62
+  410  ssh -i aws_login.pem ubuntu@3.89.109.62
+  411  ssh -i /Users/aamir/Downloads/aws_login.pem /Users/aamir/Downloads/aws_login.pem ubuntu@3.89.109.62:/home/ubuntu
+  412  scp -i /Users/aamir/Downloads/aws_login.pem ubuntu@3.89.109.62:/home/ubuntu
+  413  scp -i C:\Users\aamir\Downloads\aws_login.pem ubuntu@3.89.109.62:\home\ubuntu
+  414  scp -i C:/Users/aamir/Downloads/aws_login.pem C:/Users/aamir/Downloads/aws_login.pem ubuntu@3.89.109.62:/home/ubuntu
+  415  ssh -i aws_login.pem ubuntu@10.0.128.49
+  416  ssh -i aws_login.pem ubuntu@10.0.128.49
+  417  ssh -i aws_login.pem ubuntu@10.0.128.49
+  418  exit
+  419  cd /Downloads
+  420  cd Downloads
+  421  ls | grep aws_login.pem
+  422  ssh -i aws_login.pem ubuntu@10.0.128.49
+  423  cd Downloads
+  424  aws --version
+  425  aws s3 ls
+  426  aws cli
+  427  aws
+  428  aws --version
+  429  python3
+  430  +
+  431  python --version
+  432  aws configure
+  433  aws configure
+  434  aws configure
+  435  aws s3 ls
+  436  cd Downloads
+  437  ls | grep aws_login.pem 
+  438  scp -i C:/Users/aamir/Downloads/aws_login.pem C:/Users/aamir/Downloads/aws_login.pem ubuntu@3.84.141.189:/home/ubuntu
+  439  ssh -i aws_login.pem ubuntu@3.84.141.189
+  440  ssh -i aws_login.pem ubuntu@3.84.141.189
+  441  ssh -i aws_login.pem ubuntu@3.84.141.189
+  442  ssh -i aws_login.pem ubuntu@3.84.141.189
+  443  scp -i C:/Users/aamir/Downloads/aws_login.pem C:/Users/aamir/Downloads/aws_login.pem ubuntu@3.84.141.189:/home/ubuntu
+  444  ssh -i aws_login.pem ubuntu@10.0.131.255
+  445  ssh -i aws_login.pem ubuntu@10.0.131.255
+  446  ssh -i aws_login.pem ubuntu@3.84.141.189
+  447  git --version
+  448  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  449  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  450  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  451  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  452  cd demo-repo-cc
+  453  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  454  git clone fatal: unable to access 'https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc/': The requested URL returned error: 403
+  455  clear
+  456  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  457  git config --list --show-origin
+  458  cd Downloads
+  459  ssh -i aws_login.pem ubuntu@52.206.112.229
+  460  ssh -i aws_login.pem ubuntu@52.206.112.229
+  461  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  462  git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/demo-repo-cc
+  463  cd Downloads
+  464  ssh -i aws_login.pem ubuntu@34.227.227.143
+  465  ssh -i aws_login.pem ubuntu@34.227.227.143
+  466  ssh -i aws_login.pem ubuntu@34.227.227.143
+  467  ssh -i aws_login.pem ubuntu@34.227.227.143
+  468  aws
+  469  aws configure
+  470  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  471  aws configure
+  472  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  473  aws configure
+  474  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  475  aws
+  476  aws --version
+  477  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  478  aws configure
+  479  aws --version
+  480  aws
+  481  aws help
+  482  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  483  aws configure
+  484  aws --version
+  485  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  486  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  487  Connection was closed before we received a valid response from endpoint URL: "https://api.ecr.us-east-1.amazonaws.com/".
+  488  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  489  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  490  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 533267049826.dkr.ecr.us-east-1.amazonaws.com
+  491  vim Dockerfile
+  492  cat Dockerfile
+  493  docker build -t 533267049826.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo
+  494  docker build -t 533267049826.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo:latest .
+  495  systemctl start docker
+  496  docker -v
+  497  docker build -it 533267049826.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo:latest .
+  498  docker buildx
+  499  docker build
+  500  docker buildx build --help
+  501  ls
+  502  cd Desktop/
+  503  ls
+  504  ls
+  505  mkdir practice
+  506  ls
+  507  cd | grep prac
+  508  cd practice/
+  509  ls
+  510  ssh-key -t rsa 
+  511  ssh-keygen -t rsa
+  512  cd ~/.ssh
+  513  ls
+  514  cat id_rsa.pub 
+  515  ls
+  516  cd 
+  517  cd Desktop/practice/
+  518  ls
+  519  git clone git@github.com:manuaralam007/djangoweather.git
+  520  ls
+  521  git clone git@github.com:manuaralam007/djangoweather.git
+  522  cd ~/.ssh
+  523  ls
+  524  rm -rf .
+  525  ls
+  526  code .
+  527  ssh-keygen -t rsa
+  528  ls
+  529  cat id_rsa.pub 
+  530  ls
+  531  cd 
+  532  cd Desktop/practice/
+  533  ls
+  534  git clone git@github.com:manuaralam007/djangoweather.git
+  535  ssh -T git@github.com
+  536  yes
+  537  git clone git@github.com:manuaralam007/djangoweather.git
+  538  git clone git@github.com:manuaralam007/letspracticegit.git
+  539  ls
+  540  code .
+  541  git config --local --list 
+  542  git config --global --list
+  543  ls
+  544  cd letspracticegit/
+  545  ls
+  546  python --version
+  547  python3 findevenoroddk.py 
+  548  ls
+  549  git init
+  550  ls
+  551  git gui
+  552  git commit -m "initial commit"
+  553  git branch
+  554  git push origin main
+  555  code .
+  556  git add.
+  557  git add .
+  558  git commit - 
+  559  git commit -m "fix the auto save issue"
+  560  git push origin main
+  561  touch find_vowel_from_string.py
+  562  git add .
+  563  git commit -m "finding vowels in strings"
+  564  git push 
+  565  history >> firstday.txt
