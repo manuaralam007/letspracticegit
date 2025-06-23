@@ -1,0 +1,52 @@
+# Defining a task within 75 days
+
+tasks = [
+    ("Project Kick-Off", 2),
+    ("Literature Review", 7),
+    ("Define Architecture/Plan", 6),
+    ("Cloud Setup & Sample App", 5),
+    ("Monitoring Setup", 4),
+    ("Load Generation", 4),
+    ("Data Collection", 7),
+    ("Data Preprocessing", 6),
+    ("Train ML Model", 6),
+    ("Deploy ML API", 4),
+    ("Auto-Scaling Integration", 5),
+    ("System Testing & Tuning", 8),
+    ("Results + Benchmarking", 6),
+    ("Report Writing", 8),
+    ("Final Review & Submission", 3),
+]
+
+# Build a dataframe with calculated start and end dates
+data = []
+current_start = start_date(2025, 6, 24)
+for task, duration in tasks:
+    current_end = current_start + timedelta(days=duration - 1)
+    data.append((task, current_start, current_end))
+    current_start = current_end + timedelta(days=1)
+
+df = pd.DataFrame(data, columns=["Task", "Start", "End"])
+
+# Plotting the Gantt chart
+fig, ax = plt.subplots(figsize=(14, 8))
+bar_colors = plt.cm.Paired(range(len(df)))  # Use a colormap for diversity
+
+for i, row in df.iterrows():
+    ax.barh(row["Task"], (row["End"] - row["Start"]).days + 1,
+            left=row["Start"], color=bar_colors[i])
+    ax.text(row["Start"] + timedelta(days=0.5), i,
+            f"{row['Start'].strftime('%b %d')} - {row['End'].strftime('%b %d')}",
+            va='center', ha='left', fontsize=8, color='black')
+
+# Formatting the date axis
+ax.xaxis.set_major_locator(mdates.WeekdayLocator(interval=1))
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
+plt.xticks(rotation=45)
+plt.xlabel("Timeline")
+plt.ylabel("Tasks")
+plt.title("Gantt Chart: AI-Powered Auto-Scaling for Cloud Applications (75 Days)")
+plt.tight_layout()
+plt.grid(True, linestyle='--', alpha=0.6)
+
+plt.show()
