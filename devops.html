@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #f4f7f9;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 1.5rem 2rem;
+        text-align: center;
+      }
+
+      nav {
+        background: #34495e;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li {
+        margin: 0 1rem;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      nav form input[type="search"] {
+        padding: 0.4rem;
+        margin-right: 0.5rem;
+        border: none;
+        border-radius: 4px;
+      }
+
+      nav form input[type="submit"] {
+        padding: 0.4rem 1rem;
+        border: none;
+        background: #1abc9c;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem;
+      }
+
+      article {
+        flex: 3;
+        margin-right: 2rem;
+      }
+
+      article h2 {
+        color: #2c3e50;
+        margin-bottom: 1rem;
+      }
+
+      article section {
+        margin-bottom: 2rem;
+      }
+
+      aside {
+        flex: 1;
+        background: #ecf0f1;
+        padding: 1rem;
+        border-radius: 8px;
+      }
+
+      aside h2 {
+        margin-bottom: 1rem;
+        color: #2c3e50;
+      }
+
+      aside ul {
+        list-style: none;
+        padding-left: 1rem;
+      }
+
+      aside ul li {
+        margin: 0.5rem 0;
+      }
+
+      aside ul li a {
+        text-decoration: none;
+        color: #2980b9;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #2c3e50;
+        color: white;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>DevOps Dashboard</h1>
+      <p>Automation | Monitoring | CI/CD | Cloud</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">CI/CD</a></li>
+        <li><a href="#">Monitoring</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <form>
+        <input type="search" name="q" placeholder="Search..." />
+        <input type="submit" value="Go!" />
+      </form>
+    </nav>
+
+    <main>
+      <article>
+        <h2>What is DevOps?</h2>
+        <p>
+          DevOps is a set of practices that combines software development (Dev) and IT operations (Ops).
+          It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+        </p>
+
+        <section>
+          <h3>Popular DevOps Tools</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Jenkins</li>
+            <li>Ansible</li>
+            <li>Terraform</li>
+            <li>GitLab CI</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>CI/CD Pipeline</h3>
+          <p>
+            Continuous Integration and Continuous Deployment are the backbone of DevOps.
+            Developers frequently commit code to the repository, which triggers automated builds, tests, and deployments.
+          </p>
+        </section>
+
+        <section>
+          <h3>Monitoring & Logging</h3>
+          <p>
+            Monitoring is critical for ensuring the health and performance of applications.
+            Tools like Prometheus, Grafana, and ELK Stack help in proactive issue detection and performance analysis.
+          </p>
+        </section>
+      </article>
+
+      <aside>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="#">Docker Documentation</a></li>
+          <li><a href="#">Kubernetes Tutorials</a></li>
+          <li><a href="#">Ansible Playbooks</a></li>
+          <li><a href="#">Terraform Modules</a></li>
+          <li><a href="#">DevOps on AWS</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 DevOps Central. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
